@@ -1,0 +1,29 @@
+{
+  "name": "md-chunker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "高级 Markdown 分块工具 - 支持原子块保护、5维度质量评分、智能句子分割",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "^14.2.29",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@mui/material": "5.16.14",
+    "@mui/icons-material": "5.16.14",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@emotion/cache": "^11.11.0",
+    "react-markdown": "^10.0.1",
+    "github-markdown-css": "^5.8.1",
+    "i18next": "^24.2.2",
+    "react-i18next": "^15.4.1",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "nanoid": "^5.1.5",
+    "formidable": "^3.5.2"
+  },
+  "license": "AGPL-3.0"
+}
