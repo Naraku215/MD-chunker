@@ -2,7 +2,30 @@
   "name": "md-chunker",
   "version": "1.0.0",
   "private": true,
-  "description": "高级 Markdown 分块工具 - 支持原子块保护、5维度质量评分、智能句子分割",
+  "description": "Structure-aware Markdown chunker that protects code, math & tables — built for RAG pipelines and LLM fine-tuning.",
+  "author": "Naraku215",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "markdown",
+    "chunking",
+    "rag",
+    "llm",
+    "text-splitting",
+    "document-processing",
+    "knowledge-base",
+    "fine-tuning",
+    "nextjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Naraku215/md-chunker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Naraku215/md-chunker/issues"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
@@ -24,6 +47,5 @@
     "i18next-browser-languagedetector": "^8.0.4",
     "nanoid": "^5.1.5",
     "formidable": "^3.5.2"
-  },
-  "license": "AGPL-3.0"
+  }
 }
