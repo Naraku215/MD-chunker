@@ -2,7 +2,7 @@
   "name": "md-chunker",
   "version": "1.0.0",
   "private": true,
-  "description": "Structure-aware Markdown chunker that protects code, math & tables — built for RAG pipelines and LLM fine-tuning.",
+  "description": "a powerful Structure-aware Markdown chunker that protects code, math & tables — built for RAG pipelines and LLM fine-tuning.",
   "author": "Naraku215",
   "license": "AGPL-3.0",
   "keywords": [
