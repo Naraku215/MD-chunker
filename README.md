@@ -1,8 +1,25 @@
 # Markdown Advanced Chunker
 
+![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)
+![Node.js](https://img.shields.io/badge/node-%3E%3D18.17-brightgreen.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Made with Next.js](https://img.shields.io/badge/Made_with-Next.js-black.svg)
+
 A structure-aware Markdown document chunking tool designed for RAG pipelines and LLM fine-tuning dataset preparation. Unlike naive token splitters, it protects atomic elements (code blocks, math formulas, tables, lists) from being broken across chunk boundaries, merges short chunks by semantic affinity, and scores each chunk across 5 quality dimensions.
 
 [中文文档](#中文说明)
+
+---
+
+## Screenshots
+
+**File management & upload**
+
+![File management](docs/screenshot-chunking.png)
+
+**3-pane chunking workspace — outline tree, chunk preview, and quality scoring**
+
+![Chunking workspace](docs/screenshot-main.png)
 
 ---
 
